@@ -10,8 +10,8 @@ cLass transactionsController extends AppsController
 	public function index()
 	{
 		$conditions = array(
-		"conditions" => "transactions.account_id = accounts.id and transactions.category_id = categories.id",
-		
+		"conditions" => "transactions.account_id = accounts.id",
+		"conditions" => "transactions.category_id = categories.id",
 		);
 
 		$columnaSuma = array(
@@ -107,3 +107,4 @@ cLass transactionsController extends AppsController
 	}
 
 }
+

@@ -13,11 +13,6 @@
 		body {
 			padding-top: 70px;
 		}
-
-		nav.navbar {
-			background-color: #000000;
-
-		}
 	</style>
 	<body>
 	<div class="container">

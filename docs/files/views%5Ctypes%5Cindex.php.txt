@@ -12,7 +12,6 @@
 <div class="row">
 	<h4>Users type list</h4>
 	<a class="btn btn-success"  href="<?php echo APP_URL.'/types/add/'; ?>">Add</a>
-	<div class="table-responsive">
 	<table class="table table-bordered"border="1">
 		<caption>
 			<h4>Total of registers: <?php echo $typesCount; ?></h4>
